@@ -17,10 +17,22 @@ margin-left: 5px;
     color: rgb(19, 134, 228);
     font-weight: 500;
 } */
-.col-lg-5.col-md-5.col-sm-12.auto {
+.col-lg-4.col-md-5.col-sm-12.auto {
     margin: auto;
 }
-
+.igtext{
+    position: relative;
+}
+.textcontent{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 500px;
+    color: white;
+}
+#para{
+    width: 700px;
+}
 
 .form1{
     /* margin-top: 50px; */
