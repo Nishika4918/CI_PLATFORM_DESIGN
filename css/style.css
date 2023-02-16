@@ -164,3 +164,78 @@ div#forgot {
 }
 
 
+/* platform Landing page */
+.navwidth{
+    width: 100%;
+}
+
+.user{
+    font-size: 15px;
+    color: black;
+}
+ul.navbar-nav.justify-content-center.mb-2.mb-lg-0 {
+    width: 100%;
+}
+
+li.nav-item {
+    width: 15%;
+}
+.userdetails{
+    margin-right: 20px;
+}
+input.form-control.me-2 {
+    border: none;
+    font-size: 20px;
+}
+.userdata{
+margin-top: 10px;
+margin-left: 10px;
+}
+.options{
+    display: flex;
+}
+.lables{
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+@media (max-width: 700px){
+    .user{
+        display: none;
+    }
+}
+
+nav.navbar.navbar-light.bg-white {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.sideborder{
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+
+@media (min-width: 1000px){
+    .filter{
+        display: none;
+    }
+}
+
+
+ .mult-select-tag .btn-container {
+    border: none;
+} 
+.mult-select-tag .body {
+ border: none;
+} 
+
+.mult-select-tag {
+  
+    width: 5%;
+    
+}
+.mult-select-tag .body {
+    min-height: 2.15rem;
+    width: 50%;
+    min-width: 4rem;
+}
